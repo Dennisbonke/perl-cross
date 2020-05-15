@@ -266,9 +266,9 @@ if not hinted 'osname'; then
 			define osname "bsd"
 			result "BSD"
 			;;
-		*-gnu*)
-			define osname "gnu"
-			result "GNU"
+		*-managarm*)
+			define osname "managarm"
+			result "Managarm"
 			;;
 		*)
 			result "no"
